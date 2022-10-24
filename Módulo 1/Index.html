@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducir datos usuario</title>
+    <link rel="stylesheet" href="CSS/style.css"/>
+
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="img">
+            <img src=""alt="Foto de perfil" id="avatar" class="avatar">
+        </div>
+        <div class="data">
+            <label for="name"><b>Nombre</b></label>
+            <input type="text" id="name" name="name">
+            <label for="lastname"><b>Apellido</b></label>
+            <input type="text" id="lastname" name="lastname">
+        </div>
+        <div class="actions">
+            <button type="button" onclick="console.log(document.getElementById('lastname').value)">
+                Recargar
+            </button>
+        </div>
+
+    </div>
+
+    <script src="JS/demo.js"></script>
+
+</body>
+
+</html>
