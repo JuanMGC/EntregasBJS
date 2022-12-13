@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Módulo 4</title>
+    <link rel="stylesheet" href="CSS/style.css"/>
+</head>
+<body>
+    <h1 class="h1">SIMPLE CALCULATOR</h1>
+    <div class="container">
+        <form id="formulary">
+            <label>Number 1</label>
+            <input type="number"id="numero1" placeholder="Introduce a number">
+            <button type="button" id="suma">+</button>
+            <button type="button" id="resta">-</button>
+            <button type="button" id="multiplicacion">*</button>
+            <button type="button" id="division">/</button>
+            <button onclick="reset()">Reset</button>
+            <label>Number 2</label>
+            <input type="number"id="numero2" placeholder="Introduce a number">
+            <span id="resultado"></span>
+        </form>
+    </div>
+    <script src="JS/app.js"></script>
+</body>
+</html>
