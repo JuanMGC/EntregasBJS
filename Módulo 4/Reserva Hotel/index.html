@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ejercicio 4.2 Reserva Hotel</title>
+</head>
+
+<body>
+    <h1 class="header">Reserva Hotel</h1>
+
+    <div class="container">
+        <div>
+            <label for="roomType">TIPO DE HABITACIÓN:</label>
+            <select id="roomType">
+                <option value="standard">Estandard</option>
+                <option value="junior">Junior Suit</option>
+                <option value="suite">Suite</option>
+            </select>
+        </div>
+
+        <div>
+            <label><Obj>OCUPACIÓN</Obj>:</label>
+            <select id="occupancy">
+                <option value="individual">Individual</option>
+                <option value="double">Doble</option>
+                <option value="triple">Triple</option>
+            </select>
+        </div>
+
+        <div>
+            <label>NÚMERO DE NOCHES:</label>
+            <input type="number" id="nights">
+        </div>
+
+        <div>
+            <label>NOCHES DE PARQUING:</label>
+            <input type="number" id="parking">
+        </div>
+
+        <div>
+            <label>SPA</label>
+            <input type="checkbox" id="spa">
+        </div>
+
+        <div class="button">
+            <button id="calcular">CALCULAR</button>
+        </div>
+    </div>
+
+    <h2 class="h2">Total Reserva: <span id='total'>0</span> €</h2>
+
+    <script src="JS/app.js"></script>
+</body>
+
+</html>

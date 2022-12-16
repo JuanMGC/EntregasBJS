@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(188, 233, 65);
+}
+
+.container {
+display:grid;
+place-items: center;
+}
+
+h1, h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: rgb(15, 72, 121);
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+  text-align: right;
+  color: rgb(72, 41, 5);
+}
+
+input, select {
+  font: 1em sans-serif;
+  width: 125px;
+  box-sizing: border-box;
+  border: 2px solid rgb(22, 88, 33);
+  margin-bottom: 20px;
+  background-color:rgb(151, 234, 234)
+}
+
+button {
+  
+    width: 150px;
+    padding: 5px;
+    border-radius: 1ex;
+    background-color: aqua;
+}
+
