@@ -1,0 +1,47 @@
+body {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    
+    color: #d54d7a;
+    text-shadow: 2px 2px 5px rgb(251, 255, 0);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    box-shadow: 2px 2px 10px #999;
+    background-color: #b8dca9;
+    padding:20px;
+    text-align: right;
+}
+
+.list-product {
+    
+    padding: 5px;
+    text-align: right;
+}
+.product-unit {
+   
+    width: 40px;
+    margin-left: 30px;
+}
+
+.btn-calculate {
+    background-color: #5757f2;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width : 100%;
+    margin: 40px 0 20px 0;
+   
+}
+
+.btn-calculate:disabled {
+    background-color: #1be26b;
+}
