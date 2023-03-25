@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Algoritmos 2</title>
+</head>
+
+<body>
+    <h1>Máquina Enigma</h1>
+      <div class="container">
+          <div class="plainText-message-container">
+            <textarea id="inputTextAreaToDecrypt" rows="15" placeholder="Introduce aquí tu mensaje para ser encriptado...">
+            </textarea>
+            <button id="decryptBtn">DESENCRIPTAR</button>
+          </div>
+
+          <div class="clearBtn">
+            <button id="clearBtn">LIMPIAR TEXTO</button>
+          </div>
+
+          <div class="encrypted-message-container"></div>
+            <textarea id="inputTextAreaToEncrypt" rows="15" placeholder="Introduce aquí tu mensaje para ser desencriptado..."> 
+            </textarea>
+            <button id="encryptBtn">ENCRIPTAR</button>
+          </div>
+  
+      </div>
+
+      <script src="JS/enigma.js"></script>
+
+</body> 
+
+</html>
