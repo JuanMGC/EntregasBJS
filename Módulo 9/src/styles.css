@@ -1,0 +1,106 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #7ee840;
+    transition: background-color 0.3s ease-in-out;
+  }
+  body.color-change {
+    background-color: #23beed;
+  }
+  
+  .sections {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .characters-section,
+  .episode-section {
+    flex-basis: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .episode-list {
+    padding: 10px 0;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .episode-list:hover {
+    background-color: #f8e71c; 
+  }
+  .episode-list:active {
+    background-color: #f0d627; 
+  }
+  .episode-section h1 {
+    color: #333;
+  }
+  
+  
+  @keyframes blinking {
+    0% {
+      color: #333;
+    }
+    50% {
+      color: #eb4319; 
+    }
+    100% {
+      color: #f8e71c; 
+    }
+  }
+
+  .episode-section h1 {
+    animation: blinking 3s infinite;
+  }
+
+  .character-row,
+  .episode-list {
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+ }
+ .character-row:hover {
+  background-color: #f8e71c;
+}
+.character-row:active {
+  background-color: #f0d627;
+}
+  
+  #character-detail {
+    position: fixed;
+    right: 0;
+    padding: 25px;
+    background-color: #d33737;
+    color: rgb(229, 207, 207);
+    font-size: 140%;
+    height: 100vh;
+  }
+
+  .characters-section h1 {
+    color: #333;
+  }
+  
+
+  @keyframes blinking {
+    0% {
+      color: #333;
+    }
+    50% {
+      color: #eb4319; 
+    }
+    100% {
+      color: #f8e71c; 
+    }
+  }
+  
+
+  .characters-section h1 {
+    animation: blinking 3s infinite; 
+  }
+  
+  .thumbnail {
+    border-radius: 50%;
+    margin: 15px;
+    vertical-align: middle;
+  }
+  
